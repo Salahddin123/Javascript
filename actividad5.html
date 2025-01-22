@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hola Mundo</title>
+    <style>
+        body {
+            background-color: #1a202c;
+            color: white;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background-color: #2d3748;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        img {
+            width: 100px;
+            height: auto;
+            margin: 5px;
+            display: none; 
+        }
+        button {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Hola Mundo</h1>
+        <input type="text" id="userInput" placeholder="Escribe algo...">
+        <button id="alertBtn">Mostrar Alerta</button>
+        <img id="image1" src="https://placehold.co/100x100" alt="Imagen 1" onmouseover="showImage2()" onmouseout="hideImage2()" ondblclick="toggleImage2()">
+        <img id="image2" src="https://placehold.co/100x100" alt="Imagen 2" style="display:none;">
+    </div>
+    <script src="./actividad5.js" defer></script>
+</body>
+</html>

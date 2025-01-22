@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 9</title>
+    <style>
+        body {
+            color: white;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        img {
+            width: 100px;
+            height: auto;
+            margin: 5px;
+        }
+        button {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <label for="imageCount">¿Cuántas imágenes quieres?</label>
+        <input type="number" id="imageCount" value="" min="1">
+        <button id="generateBtn">Rellenar</button>
+        <div id="imageContainer"></div>
+        <img id="placeholderImage" src="https://th.bing.com/th/id/R.da1e95284cd5a20571f2d65e8a3c96fd?rik=MusZbDbOwFM%2fBA&pid=ImgRaw&r=0" alt="Placeholder image" style="display:none;">
+    </div>
+    <script src="./actividad9.js" defer></script>
+</body>
+</html>
